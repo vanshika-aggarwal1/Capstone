@@ -1,0 +1,59 @@
+body{
+    display: grid;
+    gap:100px;
+    background-image:linear-gradient(to right,#ff3131,#ff914d)
+}
+.text{
+    font-family: 'Varela Round', sans-serif;
+    color:hsl(0, 0%, 100%);
+    padding: 50px;
+    text-align: center;
+}
+a{
+    color: #fff;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.education{
+    background-image:linear-gradient(#2d4059 , #f3f39a );
+    border-radius: 10%;
+    text-align: left;
+    height: 400px;
+    width:250px;
+}
+.education>h3{
+    font-size:2.5em;
+    text-align: center;
+}
+.me{
+    border-radius: 10%;
+    height: 500px;
+    width: 416.6px ;
+}
+.first{
+    width: 500px;
+    padding-left: 50px;
+    font-size: 2em;
+}
+h1{
+    font-family: 'Fredoka', sans-serif;
+    font-size:4em;
+}
+.what{
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.veggie{
+    height: 98%;
+    width: 98%;
+}
