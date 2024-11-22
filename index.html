@@ -1,82 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capstone 2</title>
-    <link href="./assets/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="main text">
-        <div class="first">
-            <p >Hi everyone, my name is<br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="./assets/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="gradient-background">
+
+    <!-- ## NAV BAR ## -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#home" class="navbar-logo">MyPortfolio</a>
+        <div class="hamburger" id="hamburger">
+          ☰
+        </div>
+    
+        <ul class="navbar-links" id="navbar-links">
+          <li class="btndiv"><a class="btn-simple" href="#home">Home</a></li>
+          <li class="btndiv"><a class="btn-simple" href="#about">About</a></li>
+          <li class="btndiv">
+            <a class="btn-simple" href="#projects">Projects</a>
+          </li>
+          <li class="btndiv">
+            <a class="btn-simple" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ## HOME PAGE ## -->
+    <div>
+      <section id="home">
+        <div class="main text">
+          <div class="first">
+            <p>Hi 👋, I'm</p>
             <h1>Vanshika Aggarwal</h1>
-            I am a Web Developer</p>
+            <p>
+              Aspiring <strong>Software Developer</strong> and
+              <strong>Problem Solver</strong>.
+            </p>
+            <p>
+              I love building innovative projects with modern tools like
+              <em>HTML</em>, <em>CSS</em>, and <em>Javascript</em>.
+            </p>
+            <p class="btndiv">
+              <a href="#projects" class="cta-button"
+                ><button class="btn-simple">My Projects</button></a
+              >
+            </p>
+            <p class="btndiv">
+              <a href="#contact" class="cta-button"
+                ><button class="btn-simple">Contact Me</button></a
+              >
+            </p>
+          </div>
+          <div>
+            <img
+              class="circle_image"
+              src="./assets/me.jpg"
+              alt="A picture of me"
+              style="width: 400px; height: 400px;"
+            />
+          </div>
         </div>
-        <div ><img class="me" src="./assets/me.jpg" alt="A picture of me"></div>
-        
+      </section>
     </div>
-    <div class="main text">    
-        <div class="education text">
-            <h3>Education</h3>
-            <ui>
-                <li>Scored 93% in CBSE Senior School Examination.</li>  
-                <li>Scored 91.8% in CBSE Secondary School Examination.</li>              
-                <li>Currently studying B.Tech, ECE from IGDTUW</li>
-                <li>Learning Full Stack Web Development</li>
-                <li>Learning C++ for DSA</li>
-            </ui>
+
+
+     <!-- ## ABOUT ME ## -->
+    <div>
+      <section id="about">
+        <div class="text">
+          <h1>About Me</h1>
+          <p>Hello! 👋</p>
+
+          <p>
+            I'm Vanshika Aggarwal, a second year student at
+            <span style="color: #ff007f"
+              >Indira Gandhi Delhi Technical University for Women</span
+            >, pursuing a degree in Electronics and Communication Engineering. I
+            am passionate about Coding, Web Development, UI/UX Designing and
+            enjoy exploring new ways to apply my skills to real-world
+            challenges.
+          </p>
+          <br />
+          <p>
+            Through my academic journey, I've gained hands-on experience with
+            C++, <span style="color: #ff007f">HTML, CSS, Javascript</span> ,
+            Git, GitHub, Visual Studios Code, Figma, and I'm constantly looking
+            for opportunities to learn and grow. Whether it's working on
+            collaborative projects, building personal portfolios, or diving into
+            internships, I thrive in environments where I can contribute and
+            make an impact.
+          </p>
+          <br />
+          <p>
+            When I'm not studying or working on projects, I love listening to
+            songs, reading thriller fictional novels and doing karate.
+          </p>
+          <br />
+          <p>
+            Feel free to check out my work or connect with me—I'm always excited
+            to collaborate or chat about new ideas!
+          </p>
+          <br />
+
+          <p class="btndiv">
+            <a href="files/example.pdf" download>
+              <button class="btn-simple">Download my resume here</button>
+            </a>
+          </p>
         </div>
-        <div  class="education second text">
-            <h3>Achievements</h3>
-            <ul>
-                <li>Won a Gold Medal in National Science Olympiad.</li>
-                <li>Achieved 98 percentile in JEE Mains Examination.</li>
-                <li>A part of the Taarangana Web Development team.</li>
-                <li>A Mentee at GDSC IGDTUW.</li>
-                <li>Participated in InnoVortex by Microsoft Azure.</li>
-            </ul>
-        </div>
+      </section>
     </div>
-    <div class="main text">
-        <div class="what first" style="height: 550px;width: 550px;">
-            <img class="veggie" src="./assets/Screenshot (33).png">
-            <img style="grid-row: span 2;" class="veggie" src="./assets/Screenshot (58).png">
-            <img class="veggie" src="./assets/Screenshot (56).png">
+
+<!-- ## PROJECTS ## -->
+    <div>
+      <section id="projects">
+        <div class="text">
+          <h1>
+            What I Have Done
+          </h1>
+          <div class="main">
+            <!-- # Drum kit # -->
+            <div class="text">
+              <a href="https://vanshika-aggarwal1.github.io/Drum-KIt/">
+                <div class="main">
+                  <img
+                    class=" proj-img circle_image"
+                    src="./assets/Screenshot (147).png"
+                  />
+                </div>
+              </a>
+              <p>Developed an interactive, responsive drum kit using HTML, CSS, and JavaScript.</p>
+              
+            </div>
+
+            <!-- # Simon Game # -->
+            <div class="text">
+              <a href="https://vanshika-aggarwal1.github.io/simon_game/">
+                <div class=" main">
+                  <img
+                    class=" proj-img circle_image"
+                    src="./assets/Screenshot (146).png"
+                  />
+                </div>
+              </a>
+              <p>Developed an interactive Simon game using HTML, CSS, and JavaScript.</p>
+              
+            </div>
+
+
+            <!-- # Dicee Game # -->
+            <div class="text">
+              <a href="https://vanshika-aggarwal1.github.io/dice_game/">
+                <div class="main">
+                  <img
+                    class="proj-img circle_image"
+                    src="./assets/Screenshot (148).png"
+                  />
+                </div>
+              </a>
+              <p>Developed an interactive Dicee game using HTML, CSS, and JavaScript.</p>
+              
+            </div>
             
+          </div>
         </div>
-        <div class="first"><h1>What I Do!</h1></div>
-        
+      </section>
     </div>
-    <div class="text">
-        <h1>Reach <br>Out To Me</h1>
-        <div class=" main text" >
-            <div >
-                <div class="main", style="justify-content: center;" >
-                    <img class="logo" style="border-radius: 50%;" src="./assets/github-icon-png-3.png">
-                    <h3>Github</h3>
-                </div>
-                <p><a href="https://github.com/vanshika-aggarwal1">vanshika-aggarwal1</a></p>
-            </div>
-            <div>
-                <div class="main", style="justify-content: center;">
-                    <img class="logo" src="https://www.thewindowsclub.com/wp-content/uploads/2020/10/Gmail-Logo.png">
-                    <h3>Email</h3>
-                </div>
-                <p><a href="mailto:aggarwalvanshika776@gmail.com">aggarwalvanshika776@gmail.com</a></p>
-            </div>
-            <div>
-                <div class="main", style="justify-content: center;">
-                    <img class="logo" src="https://p1.hiclipart.com/preview/539/185/119/facebook-social-media-icons-logo-linkedin-online-and-offline-like-button-symbol-blue-text-png-clipart.jpg">
-                    <h3>Linkdin</h3>
-                </div>
-                <p><a href="https://www.linkedin.com/in/vanshika-aggarwal-20a2b2288">@VanshikaAggarwal</a></p>
-            </div>
+<!-- 
+    <div>
+      <section id="projects">
+
+        <div class="main text">
+          <div class="first"><h1>What I Do!</h1></div>
+          <div class="what first" style="height: 550px; width: 550px">
+            <img class="veggie" src="./assets/Screenshot (33).png" />
+            <img
+              style="grid-row: span 2"
+              class="veggie"
+              src="./assets/Screenshot (58).png"
+            />
+            <img class="veggie" src="./assets/Screenshot (56).png" />
+          </div>
+          
         </div>
+      </section>
+    </div> -->
+
+
+<!-- ## CONTACT ME ##     -->
+    <div>
+      <section id="contact">
+        <div class="text">
+          <h1>
+            Reach<br />
+            Out To Me
+          </h1>
+          <div class="main text">
+            <div class="btndiv">
+              <a href="https://github.com/vanshika-aggarwal1">
+                <div class="contact-div main btn-simple">
+                  <img
+                    class="logo circle_image"
+                    src="./assets/github-icon-png-3.png"
+                  />
+                  <p style="font-weight: 100;">vanshika-aggarwal1</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="btndiv">
+              <a href="mailto:aggarwalvanshika776@gmail.com">
+                <div class="contact-div main btn-simple">
+                  <img
+                    class="logo circle_image"
+                    src="https://www.thewindowsclub.com/wp-content/uploads/2020/10/Gmail-Logo.png"
+                  />
+                  <p style="font-weight: 100;">aggarwalvanshika776@gmail.com</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="btndiv">
+              <a href="https://www.linkedin.com/in/vanshika-aggarwal-20a2b2288">
+                <div class="contact-div main btn-simple">
+                  <img
+                    class="logo circle_image"
+                    style="border-radius: 50%"
+                    src="https://p1.hiclipart.com/preview/539/185/119/facebook-social-media-icons-logo-linkedin-online-and-offline-like-button-symbol-blue-text-png-clipart.jpg"
+                  />
+                  <p style="font-weight: 100;">@VanshikaAggarwal</p>
+                </div>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </section>
     </div>
-   <footer class="main text", style="padding-bottom: 0%;"> ↪ Let's Collaborate</footer>
-</body>
+
+    <footer class="main text" , style="padding-bottom: 0%">
+      ↪ Let's Collaborate
+    </footer>
+    <script src="./assets/index.js"></script>
+  </body>
 </html>
